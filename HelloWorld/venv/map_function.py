@@ -1,11 +1,13 @@
+def even_or_odd(num):
+  if num%2==0:
+    return "The Number {} is Even".format(num)
+  else:
+    return "The Number {} is odd".format(num)
+lst =[2,3,4,6,8,3,7,33,5,7,]
+# x = even_or_odd(36)
+# print(x)
 
-def myfunc(a):
-  return len(a)
+list = list(map(even_or_odd, lst))
+print(list)
 
-x = map(myfunc, ('apple', 'banana', 'cherry'))
-
-print(x)
-
-#convert the map into a list, for readability:
-print(list(x))
 
