@@ -7,7 +7,6 @@ lst =[2,3,4,6,8,3,7,33,5,7,]
 # x = even_or_odd(36)
 # print(x)
 
-list = list(map(even_or_odd, lst))
-print(list)
+print(list(map(even_or_odd, lst)))
 
 
